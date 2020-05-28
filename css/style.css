@@ -1,5 +1,5 @@
 body{
-    background-image: url(./img/wvebckgrnd.jpg);
+    background-image: url(../img/wvebckgrnd.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -9,28 +9,43 @@ body{
 h1{
     color: goldenrod;
     font-style: italic;
+    font-weight: bolder;
 }
 
 #intro h2{
-    color:wheat;
+    color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
     font-style: oblique;
+    text-decoration: solid;
 }
 
 #intro p{
-    color: gold;
+    color: maroon;
     font-style: initial;
 }
 
 #nav strong,b{
-    color:coral;
+    color:rgb(214, 57, 0);
     font-family: serif;
 
 }
 
-a{
-    color:rgb(164, 144, 236);
+#nav a{
+    color:rgb(91, 57, 214) !important;
 }
+
+a{
+    color: blue;
+}
+
+a:hover{
+    color: aliceblue;
+}
+
+a:active{
+    color: magenta;
+}
+
 
 #blogs h2{
     color:whitesmoke;
@@ -47,7 +62,8 @@ a{
 }
 
 #contact{
-    border: 3px dashed gold;
+    border-top: 3px dashed gold;
+    border-bottom: 3px dashed gold;
     text-align: center;
     width: 100%;
     display: inline-block;
@@ -97,9 +113,27 @@ a{
 
 #header h1{
     display: inline-block;
-    width: 65%;
+    width: 75%;
 }
 
-button{
+
+#header input[type="button"]{
     display: inline-block;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding:2px 2px 2px 2px;
+    font-size: medium;
+    background-color: rgb(173, 28, 28);
+    cursor: pointer;
+   
+}
+
+#outer-div{
+    text-align: initial;
+    width: 100%;
+    border-top: 3px dashed gold;
+    border-bottom: 3px dashed gold;
+    background-color: rgb(223, 145, 68);
+     
 }

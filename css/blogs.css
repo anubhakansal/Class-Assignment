@@ -1,0 +1,48 @@
+#head h2{
+    color: #101D79;
+    font-style: italic;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+    width: 78%;
+}
+
+#head input[type="button"]{
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    padding:2px 2px 2px 2px;
+    font-size: medium;
+    background-color:#29C9CB;
+   
+}
+
+#start p{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#start strong{
+    color: rgb(201, 67, 67);
+    font-weight: bolder;
+
+}
+
+#blog h3{
+    color: #9C7116 !important;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline ;
+}
+#blog ol li :nth-child(even){
+    color: rgb(201, 67, 67);
+}
+
+#blog a{
+    color: teal;
+}
+
+
+
